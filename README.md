@@ -77,9 +77,9 @@
 
 |  |  |  |
 |:-:|:-:|:-:|
-| ❌ | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C1&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C2&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) |
+| ❌ | ⭕ | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C2&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) |
 | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C3&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) | ⭕ | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C5&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) |
-| [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C6&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C7&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C8&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) |
+| [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C6&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) | [⬜](https://github.com/maddox095/maddox095/issues/new?title=ttt%7Cmove%7C7&body=Just+press+the+green+%2A%2ASubmit+new+issue%2A%2A+button+below.+My+bot+plays+its+move+and+the+board+on+my+profile+updates+in+~30+seconds.+Thanks+for+playing%21) | ❌ |
 
 **Your move.** You're **❌**. Click any ⬜ to drop your mark; the bot (**⭕**) answers instantly.
 
@@ -89,6 +89,8 @@
 
 | Player | Mark | Cell | When |
 |--------|:----:|:----:|------|
+| TicTacToeBot | ⭕ | 2 | 2026-06-03 12:35 UTC |
+| [@maddox095](https://github.com/maddox095) | ❌ | 9 | 2026-06-03 12:35 UTC |
 | TicTacToeBot | ⭕ | 5 | 2026-06-03 12:34 UTC |
 | [@maddox095](https://github.com/maddox095) | ❌ | 1 | 2026-06-03 12:34 UTC |
 
