@@ -42,17 +42,18 @@ The [.github/ISSUE_TEMPLATE/config.yml](.github/ISSUE_TEMPLATE/config.yml) keeps
 blank issues enabled (required for the move links) and adds a friendly link on
 the new-issue chooser page.
 
-## 4. Widgets and known caveats
+## 4. Widgets
 
 All of these are third-party image widgets embedded by URL; no setup needed.
+The **streak stats**, **contribution activity graph**, **typing header**, and
+**dev quote** were all verified reachable.
 
-- **GitHub stats / top languages cards** use the shared public
-  `github-readme-stats` instance, which is sometimes rate-limited and may return
-  a 503 (the card renders broken until it recovers). For 100% reliability, deploy
-  your own instance on Vercel and point the two image URLs at it. See
-  https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own .
-- **Streak stats**, **activity graph**, **typing header**, and **dev quote** were
-  all verified reachable.
+Note: the `github-readme-stats` overall-stats and top-languages cards were
+intentionally removed. The shared public instance is frequently rate-limited and
+returns 503, which left the cards broken on the profile. If you ever want them
+back with 100% reliability, deploy your own instance on Vercel (see
+https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own ) and add
+the two image URLs to the GitHub Stats section of the README.
 
 ## 5. Repository structure
 
