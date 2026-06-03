@@ -1,13 +1,36 @@
 {
-  "board": [" ", " ", " ", " ", " ", " ", " ", " ", " "],
+  "board": [
+    "X",
+    " ",
+    " ",
+    " ",
+    "O",
+    " ",
+    " ",
+    " ",
+    " "
+  ],
   "status": "playing",
   "winner": null,
   "games_played": 0,
   "human_wins": 0,
   "bot_wins": 0,
   "draws": 0,
-  "last_player": null,
-  "history": [],
+  "last_player": "maddox095",
+  "history": [
+    {
+      "by": "TicTacToeBot",
+      "mark": "O",
+      "cell": 4,
+      "time": "2026-06-03 12:34 UTC"
+    },
+    {
+      "by": "maddox095",
+      "mark": "X",
+      "cell": 0,
+      "time": "2026-06-03 12:34 UTC"
+    }
+  ],
   "hall_of_fame": [],
-  "updated": null
+  "updated": "2026-06-03 12:34 UTC"
 }
