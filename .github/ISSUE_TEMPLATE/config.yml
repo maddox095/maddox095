@@ -1,0 +1,8 @@
+# Keep blank issues ENABLED. The one-click Tic-Tac-Toe move links open a
+# pre-filled issue via URL parameters (issues/new?title=...&body=...), which
+# only works while blank issues are allowed. Do not set this to false.
+blank_issues_enabled: true
+contact_links:
+  - name: Play Tic-Tac-Toe
+    url: https://github.com/maddox095
+    about: Make your move from the live board on my profile README.

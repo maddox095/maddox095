@@ -1,0 +1,51 @@
+name: tic-tac-toe
+
+# A visitor "plays" by opening an issue titled `ttt|move|<cell>` (cell 0-8).
+# This workflow applies the move, lets the bot respond, rewrites the board in
+# README.md, commits it, and closes the issue with the result.
+on:
+  issues:
+    types: [opened]
+
+# Serialize games so concurrent moves don't clobber each other's commits.
+concurrency:
+  group: tic-tac-toe
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'ttt|move|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Apply move
+        id: move
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_ACTOR: ${{ github.event.issue.user.login }}
+        run: python tictactoe/engine.py
+
+      - name: Commit updated board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md tictactoe/state.json
+          git commit -m "🎮 tic-tac-toe: move by @${{ github.event.issue.user.login }}" || echo "Nothing to commit"
+          git push
+
+      - name: Close the move issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >
+          gh issue close ${{ github.event.issue.number }}
+          --repo ${{ github.repository }}
+          --comment "${{ steps.move.outputs.result }}"
