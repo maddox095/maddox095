@@ -1,3 +1,0 @@
-# The Tic-Tac-Toe engine (engine.py) uses only the Python standard library
-# (json, os, sys, urllib, datetime). There are no third-party dependencies to
-# install. This file exists to document that fact for anyone reading the repo.
